@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@Kairoo_Official_bot — MLBB Checker & Group Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Background Glow Elements -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="brand">
+                <span class="bot-badge">VER 2.0</span>
+                <h1>@Kairoo_Official_bot</h1>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#commands">Commands</a>
+                <a href="#setup">Setup</a>
+                <a href="https://t.me/Kairoo_Official_bot" target="_blank" class="btn-telegram-nav">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.161c-.18 1.897-.962 6.502-1.359 8.627-.168.9-.5 1.201-.82 1.23-.697.064-1.228-.461-1.901-.903-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.911.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635.099 0 .321.023.465.14.12.098.153.228.166.331.011.095.024.312.01.481z" />
+                    </svg>
+                    Open Bot
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="pill-badge fade-in">
+                <span class="pulse-dot"></span> Advanced MLBB & Group Management Bot
+            </div>
+            <h1 class="hero-title fade-in">The Ultimate Telegram Assistant for <span class="gradient-text">Gamers &
+                    Sellers</span></h1>
+            <p class="hero-desc fade-in">Check Mobile Legends accounts instantly, calculate smile coin prices with
+                precision, filter out duplicate payment receipts, and automate group moderation effortlessly.</p>
+            <div class="hero-actions fade-in">
+                <a href="https://t.me/Kairoo_Official_bot" target="_blank" class="btn-primary">
+                    Launch Telegram Bot <span>&rarr;</span>
+                </a>
+                <a href="#commands" class="btn-secondary">View All Commands</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Container -->
+    <main class="container">
+
+        <!-- Universal Prefix Notice -->
+        <div class="notice-box fade-in">
+            <div class="notice-icon">⚡</div>
+            <div>
+                <h3>Universal Command System</h3>
+                <p>Every single command works with either a forward slash (<code>/</code>) or a dot (<code>.</code>).
+                    For instance, typing <code>/check</code> or <code>.check</code> yields the exact same result. In
+                    group chats, make sure the bot is an admin with <strong>Ban Users</strong> rights enabled.</p>
+            </div>
+        </div>
+
+        <!-- Section 1: Account Checker -->
+        <section id="features" class="section">
+            <div class="section-header">
+                <span class="section-tag">01 / VERIFICATION</span>
+                <h2>Instant Account Checker</h2>
+                <p>Verify game accounts instantly without navigating away from your chat flow.</p>
+            </div>
+
+            <div class="grid-3">
+                <div class="feature-card">
+                    <div class="card-icon">🔍</div>
+                    <h3>Batch ID Checking</h3>
+                    <p>Send up to 5 game accounts in a single message using standard ID and Zone formatting.</p>
+                    <div class="code-pill">12345678 1234</div>
+                </div>
+                <div class="feature-card">
+                    <div class="card-icon">💬</div>
+                    <h3>Reply Shortcut</h3>
+                    <p>Found an account ID inside someone else's message? Simply reply to that message with a shortcut.
+                    </p>
+                    <div class="code-pill">/rpc</div>
+                </div>
+                <div class="feature-card">
+                    <div class="card-icon">🤖</div>
+                    <h3>Auto-Checker (ATC)</h3>
+                    <p>Group admins can enable automatic account validation for every ID posted in the group.</p>
+                    <div class="code-pill">/atc on &nbsp;|&nbsp; /atc off</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Pricing & Calculators -->
+        <section class="section">
+            <div class="section-header">
+                <span class="section-tag">02 / PRICING & MATH</span>
+                <h2>Smart Calculators & Price Rates</h2>
+                <p>Eliminate manual math errors and generate clean price lists with automatic profit margins.</p>
+            </div>
+
+            <div class="grid-2">
+                <div class="feature-card wide-card">
+                    <div class="card-header-flex">
+                        <h3>Smile Coin Price Rates</h3>
+                        <span class="badge-sub">Multi-Region</span>
+                    </div>
+                    <p>Calculate retail selling prices instantly based on current coin rates with custom profit
+                        percentages and automated currency rounding (00 / 50 endings).</p>
+
+                    <div class="command-breakdown">
+                        <div class="cmd-row">
+                            <code>/prcal mlbr 83500 10</code>
+                            <span>Calculates price + 10% profit, neatly rounded</span>
+                        </div>
+                        <div class="cmd-row">
+                            <code>/prcalnr mlbr 83500 10</code>
+                            <span>Calculates price + profit with exact unrounded value</span>
+                        </div>
+                        <div class="cmd-row">
+                            <code>/prcaliv mlbr 83500</code>
+                            <span>Retrieves pure cost price with zero markup</span>
+                        </div>
+                        <div class="cmd-row">
+                            <code>/precal mlbr 83800 2</code>
+                            <span>Generates custom price list with your personal emojis</span>
+                        </div>
+                    </div>
+                    <p class="regions-note"><strong>Supported Regions:</strong> <code>mlbr</code> (MLBB BR),
+                        <code>mcbr</code> (Magic Chess BR), <code>mcph</code> (Magic Chess PH - rate 1120).</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="card-icon">🧮</div>
+                    <h3>Built-in Math Solver</h3>
+                    <p>Need to calculate totals quickly? Send any math expression right into the chat and get an
+                        immediate reply.</p>
+                    <div class="code-pill" style="margin-bottom: 16px;">1200+350*2</div>
+                    <p style="font-size: 0.85rem; color: var(--text-muted);">Group admins can toggle the calculator
+                        feature on or off globally using <code>/cal on</code> or <code>/cal off</code>.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Receipt Security & Moderation -->
+        <section class="section">
+            <div class="section-header">
+                <span class="section-tag">03 / SECURITY & ADMIN</span>
+                <h2>Duplicate Receipt Alerts & Moderation</h2>
+                <p>Protect your business from double-payment scams and keep your community clean.</p>
+            </div>
+
+            <div class="grid-2">
+                <div class="feature-card">
+                    <div class="card-icon">🧾</div>
+                    <h3>Duplicate Receipt Detection</h3>
+                    <p>If the exact same transaction screenshot (KBZ Pay, Wave Money, AYA, UAB, etc.) is uploaded twice,
+                        the bot immediately triggers a warning alert to prevent reuse fraud.</p>
+                    <div class="code-pill">/dupe on &nbsp;|&nbsp; /dupe off</div>
+                </div>
+
+                <div class="feature-card">
+                    <div class="card-icon">🛡️</div>
+                    <h3>Full Group Moderation</h3>
+                    <p>Manage disruptive members effortlessly. Requires admin privileges with <strong>Ban Users</strong>
+                        permission enabled.</p>
+                    <div class="command-breakdown" style="margin-top: 12px;">
+                        <div class="cmd-row">
+                            <code>/ban</code><code>/unban</code><code>/kick</code>
+                            <span>Target by reply, user ID, or @username</span>
+                        </div>
+                        <div class="cmd-row">
+                            <code>/mute @user 1h spam</code>
+                            <span>Time formats: 30m, 2h, 1d, 1w (blank = permanent)</span>
+                        </div>
+                        <div class="cmd-row">
+                            <code>/lgpban on</code>
+                            <span>Auto-bans anyone who leaves the group voluntarily</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Setup Guide -->
+        <section id="setup" class="section">
+            <div class="section-header">
+                <span class="section-tag">04 / GETTING STARTED</span>
+                <h2>Group Integration Guide</h2>
+                <p>Set up the bot in your Telegram group in under 60 seconds.</p>
+            </div>
+
+            <div class="steps-container">
+                <div class="step-card">
+                    <div class="step-num">01</div>
+                    <div>
+                        <h4>Add Bot to Group</h4>
+                        <p>Invite <strong>@Kairoo_Official_bot</strong> into your group chat as a standard member.</p>
+                    </div>
+                </div>
+                <div class="step-card">
+                    <div class="step-num">02</div>
+                    <div>
+                        <h4>Grant Admin Rights</h4>
+                        <p>Promote the bot to administrator and make sure the <strong>Ban Users</strong> permission is
+                            enabled for moderation features.</p>
+                    </div>
+                </div>
+                <div class="step-card">
+                    <div class="step-num">03</div>
+                    <div>
+                        <h4>Activate Features</h4>
+                        <p>Use group commands like <code>/atc on</code>, <code>/cal on</code>, or <code>/dupe on</code>
+                            to configure your community.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <span>@Kairoo_Official_bot</span>
+                <p>Professional MLBB automation and group utility bot.</p>
+            </div>
+            <div class="footer-contact">
+                <p>Encountering issues or need assistance?</p>
+                <a href="https://t.me/Kairoo_Official" target="_blank" class="contact-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.161c-.18 1.897-.962 6.502-1.359 8.627-.168.9-.5 1.201-.82 1.23-.697.064-1.228-.461-1.901-.903-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.911.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635.099 0 .321.023.465.14.12.098.153.228.166.331.011.095.024.312.01.481z" />
+                    </svg>
+                    Contact Developer: @Kairoo_Official
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Kairoo Bot. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
