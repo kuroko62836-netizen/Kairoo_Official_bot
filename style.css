@@ -52,10 +52,11 @@ body {
     position: sticky;
     top: 0;
     z-index: 1000;
-    background: rgba(7, 10, 18, 0.85);
+    background: rgba(7, 10, 18, 0.95);
     backdrop-filter: blur(16px);
     border-bottom: 1px solid var(--border-color);
     padding: 14px 0;
+    /* This ensures it clears mobile browser bars or telegram top frames if needed */
 }
 
 .nav-container {
